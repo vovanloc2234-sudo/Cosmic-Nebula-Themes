@@ -1,0 +1,51 @@
+{
+    "name": "theme-cosmic-nebula",
+    "version": "1.0.0",
+    "displayName": "Cosmic Nebula Themes",
+    "description": "A deep space theme with purple nebula colors and alien flora accents. Perfect for long coding sessions in the dark.",
+    "publisher": "cosmic-themes",
+    "license": "MIT",
+    "main": "app.js",
+    "engines": {
+        "vscode": "^1.13.0"
+    },
+    "categories": ["Themes"],
+    "keywords": [
+        "cosmic-nebula",
+        "dark",
+        "theme",
+        "color-theme",
+        "purple",
+        "space",
+        "nebula",
+        "cosmic"
+    ],
+    "icon": "Visuals/icon.png",
+    "galleryBanner": {
+        "color": "#1a0b2e",
+        "theme": "dark"
+    },
+    "activationEvents": ["*"],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Cosmic Nebula",
+                "uiTheme": "vs-dark",
+                "path": "./theme/cosmic-nebula.json"
+            },
+            {
+                "label": "Cosmic Nebula Soft",
+                "uiTheme": "vs-dark",
+                "path": "./theme/cosmic-nebula-soft.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vovanloc2234-sudo/Cosmic-Nebula-Themes"
+    },
+    "bugs": {
+        "url": "https://github.com/vovanloc2234-sudo/Cosmic-Nebula-Themes/issues"
+    },
+    "homepage": "https://github.com/vovanloc2234-sudo/Cosmic-Nebula-Themes#readme"
+}

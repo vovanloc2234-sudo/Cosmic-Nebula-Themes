@@ -1,0 +1,386 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "name": "Cosmic Nebula",
+    "author": "Cosmic Themes",
+    "semanticClass": "theme.cosmic-nebula",
+    "semanticHighlighting": true,
+    "colors": {
+        // ТЕРМИНАЛ (16 ANSI цветов + фон/передний план)
+        "terminal.background": "#1a0b2e",
+        "terminal.foreground": "#f8f8ff",
+        "terminal.ansiBlack": "#0f061e",
+        "terminal.ansiRed": "#d94d9a",
+        "terminal.ansiGreen": "#4c956c",
+        "terminal.ansiYellow": "#a663cc",
+        "terminal.ansiBlue": "#5e60ce",
+        "terminal.ansiMagenta": "#7209b7",
+        "terminal.ansiCyan": "#4c956c",
+        "terminal.ansiWhite": "#f8f8ff",
+        "terminal.ansiBrightBlack": "#9a92b0",
+        "terminal.ansiBrightRed": "#ff6bb3",
+        "terminal.ansiBrightGreen": "#6bb36b",
+        "terminal.ansiBrightYellow": "#c280e6",
+        "terminal.ansiBrightBlue": "#7a7ce8",
+        "terminal.ansiBrightMagenta": "#9933d9",
+        "terminal.ansiBrightCyan": "#6bb36b",
+        "terminal.ansiBrightWhite": "#ffffff",
+
+        // ОСНОВНЫЕ ЭЛЕМЕНТЫ ИНТЕРФЕЙСА
+        "focusBorder": "#7209b7",
+        "foreground": "#f8f8ff",
+        "selection.background": "#7209b740",
+        "errorForeground": "#d94d9a",
+
+        // КНОПКИ И ЭЛЕМЕНТЫ УПРАВЛЕНИЯ
+        "button.background": "#7209b7",
+        "button.foreground": "#f8f8ff",
+        "button.hoverBackground": "#9933d9",
+        "button.secondaryBackground": "#a663cc",
+        "button.secondaryForeground": "#f8f8ff",
+        "button.secondaryHoverBackground": "#c280e6",
+        "dropdown.background": "#160928",
+        "dropdown.border": "#7209b7",
+        "dropdown.foreground": "#f8f8ff",
+
+        // ПОЛЯ ВВОДА
+        "input.background": "#160928",
+        "input.foreground": "#f8f8ff",
+        "input.border": "#7209b7",
+        "input.placeholderForeground": "#9a92b0",
+        "inputOption.activeBorder": "#a663cc",
+        "inputValidation.infoBorder": "#5e60ce",
+        "inputValidation.warningBorder": "#a663cc",
+        "inputValidation.errorBorder": "#d94d9a",
+
+        // ЗНАЧКИ И ПРОГРЕСС
+        "badge.foreground": "#f8f8ff",
+        "badge.background": "#7209b7",
+        "progressBar.background": "#a663cc",
+
+        // СПИСКИ
+        "list.activeSelectionBackground": "#7209b740",
+        "list.activeSelectionForeground": "#f8f8ff",
+        "list.dropBackground": "#7209b730",
+        "list.focusBackground": "#a663cc30",
+        "list.highlightForeground": "#a663cc",
+        "list.hoverBackground": "#7209b720",
+        "list.inactiveSelectionBackground": "#7209b720",
+        "list.warningForeground": "#a663cc",
+        "list.errorForeground": "#d94d9a",
+
+        // ПАНЕЛЬ АКТИВНОСТИ
+        "activityBar.background": "#0f061e",
+        "activityBar.inactiveForeground": "#9a92b0",
+        "activityBar.foreground": "#f8f8ff",
+        "activityBar.activeBorder": "#7209b7",
+        "activityBar.activeBackground": "#7209b720",
+        "activityBarBadge.background": "#d94d9a",
+        "activityBarBadge.foreground": "#f8f8ff",
+
+        // БОКОВАЯ ПАНЕЛЬ
+        "sideBar.background": "#160928",
+        "sideBarTitle.foreground": "#f8f8ff",
+        "sideBarSectionHeader.background": "#1a0b2e",
+        "sideBarSectionHeader.border": "#7209b7",
+
+        // ГРУППЫ РЕДАКТОРОВ И ВКЛАДКИ
+        "editorGroup.border": "#7209b7",
+        "editorGroup.dropBackground": "#7209b730",
+        "editorGroupHeader.tabsBackground": "#0f061e",
+        "tab.activeBackground": "#1a0b2e",
+        "tab.activeForeground": "#f8f8ff",
+        "tab.border": "#0f061e",
+        "tab.activeBorderTop": "#7209b7",
+        "tab.inactiveBackground": "#0f061e",
+        "tab.inactiveForeground": "#9a92b0",
+
+        // РЕДАКТОР
+        "editor.foreground": "#f8f8ff",
+        "editor.background": "#1a0b2e",
+        "editorLineNumber.foreground": "#9a92b0",
+        "editorLineNumber.activeForeground": "#d1cdd9",
+        "editor.selectionBackground": "#7209b740",
+        "editor.selectionHighlightBackground": "#a663cc30",
+        "editor.foldBackground": "#7209b720",
+        "editor.wordHighlightBackground": "#a663cc30",
+        "editor.wordHighlightStrongBackground": "#7209b740",
+        "editor.findMatchBackground": "#d94d9a60",
+        "editor.findMatchHighlightBackground": "#d94d9a30",
+        "editor.findRangeHighlightBackground": "#7209b730",
+        "editor.hoverHighlightBackground": "#a663cc20",
+        "editor.lineHighlightBorder": "#7209b730",
+        "editorLink.activeForeground": "#5e60ce",
+        "editor.rangeHighlightBackground": "#7209b720",
+
+        // ПОДСВЕТКА СКОБОК
+        "editorBracketHighlight.foreground1": "#a663cc",
+        "editorBracketHighlight.foreground2": "#4c956c",
+        "editorBracketHighlight.foreground3": "#5e60ce",
+        "editorBracketHighlight.foreground4": "#d94d9a",
+        "editorBracketHighlight.foreground5": "#a663cc",
+        "editorBracketHighlight.foreground6": "#4c956c",
+        "editorBracketHighlight.unexpectedBracket.foreground": "#d94d9a",
+
+        // ОБЗОРНАЯ ЛИНЕЙКА
+        "editorOverviewRuler.border": "#7209b7",
+        "editorOverviewRuler.selectionHighlightForeground": "#7209b7",
+        "editorOverviewRuler.wordHighlightForeground": "#a663cc",
+        "editorOverviewRuler.wordHighlightStrongForeground": "#7209b7",
+        "editorOverviewRuler.modifiedForeground": "#5e60ce",
+        "editorOverviewRuler.addedForeground": "#4c956c",
+        "editorOverviewRuler.deletedForeground": "#d94d9a",
+        "editorOverviewRuler.errorForeground": "#d94d9a",
+        "editorOverviewRuler.warningForeground": "#a663cc",
+        "editorOverviewRuler.infoForeground": "#5e60ce",
+
+        // ОШИБКИ И ПРЕДУПРЕЖДЕНИЯ
+        "editorError.foreground": "#d94d9a",
+        "editorWarning.foreground": "#a663cc",
+        "editorGutter.modifiedBackground": "#5e60ce",
+        "editorGutter.addedBackground": "#4c956c",
+        "editorGutter.deletedBackground": "#d94d9a",
+
+        // GIT ДЕКОРАЦИИ
+        "gitDecoration.modifiedResourceForeground": "#5e60ce",
+        "gitDecoration.deletedResourceForeground": "#d94d9a",
+        "gitDecoration.untrackedResourceForeground": "#4c956c",
+        "gitDecoration.ignoredResourceForeground": "#9a92b0",
+        "gitDecoration.conflictingResourceForeground": "#a663cc",
+
+        // DIFF РЕДАКТОР
+        "diffEditor.insertedTextBackground": "#4c956c30",
+        "diffEditor.removedTextBackground": "#d94d9a30",
+
+        // ВИДЖЕТЫ РЕДАКТОРА
+        "editorWidget.background": "#160928",
+        "editorSuggestWidget.background": "#160928",
+        "editorSuggestWidget.foreground": "#f8f8ff",
+        "editorSuggestWidget.selectedBackground": "#7209b740",
+        "editorHoverWidget.background": "#160928",
+        "editorHoverWidget.border": "#7209b7",
+
+        // ПАНЕЛИ
+        "panel.background": "#160928",
+        "panel.border": "#7209b7",
+        "panelTitle.activeBorder": "#7209b7",
+        "panelTitle.activeForeground": "#f8f8ff",
+        "panelTitle.inactiveForeground": "#9a92b0",
+
+        // СТАТУС БАР
+        "statusBar.background": "#0f061e",
+        "statusBar.foreground": "#f8f8ff",
+        "statusBar.debuggingBackground": "#d94d9a",
+        "statusBar.debuggingForeground": "#f8f8ff",
+        "statusBar.noFolderBackground": "#0f061e",
+        "statusBar.noFolderForeground": "#9a92b0",
+        "statusBarItem.prominentBackground": "#7209b7",
+        "statusBarItem.prominentHoverBackground": "#9933d9",
+        "statusBarItem.remoteForeground": "#f8f8ff",
+        "statusBarItem.remoteBackground": "#4c956c",
+
+        // ЗАГОЛОВОК ОКНА
+        "titleBar.activeBackground": "#0f061e",
+        "titleBar.activeForeground": "#f8f8ff",
+        "titleBar.inactiveBackground": "#0f061e",
+        "titleBar.inactiveForeground": "#9a92b0",
+
+        // НАСТРОЙКИ
+        "settings.headerForeground": "#f8f8ff",
+        "settings.modifiedItemIndicator": "#7209b7",
+        "settings.dropdownBackground": "#160928",
+        "settings.dropdownForeground": "#f8f8ff",
+        "settings.dropdownBorder": "#7209b7",
+        "settings.checkboxBackground": "#160928",
+        "settings.checkboxForeground": "#f8f8ff",
+        "settings.checkboxBorder": "#7209b7",
+        "settings.textInputBackground": "#160928",
+        "settings.textInputForeground": "#f8f8ff",
+        "settings.textInputBorder": "#7209b7",
+        "settings.numberInputBackground": "#160928",
+        "settings.numberInputForeground": "#f8f8ff",
+        "settings.numberInputBorder": "#7209b7",
+
+        // ХЛЕБНЫЕ КРОШКИ
+        "breadcrumb.foreground": "#9a92b0",
+        "breadcrumb.background": "#1a0b2e",
+        "breadcrumb.focusForeground": "#f8f8ff",
+        "breadcrumb.activeSelectionForeground": "#a663cc",
+        "breadcrumbPicker.background": "#160928"
+    },
+    "tokenColors": [
+        // БАЗОВОЕ ФОРМАТИРОВАНИЕ
+        {
+            "scope": ["emphasis"],
+            "settings": {"fontStyle": "italic"}
+        },
+        {
+            "scope": ["strong"],
+            "settings": {"fontStyle": "bold"}
+        },
+        {
+            "scope": ["header"],
+            "settings": {"foreground": "#a663cc"}
+        },
+
+        // КОММЕНТАРИИ
+        {
+            "name": "Comments",
+            "scope": ["comment", "punctuation.definition.comment"],
+            "settings": {"foreground": "#9a92b0", "fontStyle": "italic"}
+        },
+        {
+            "name": "JSDoc keywords",
+            "scope": ["comment keyword.codetag.notation", "comment.block.documentation keyword"],
+            "settings": {"foreground": "#a663cc"}
+        },
+
+        // СТРОКИ
+        {
+            "name": "Strings",
+            "scope": ["string"],
+            "settings": {"foreground": "#4c956c"}
+        },
+        {
+            "name": "String quotes",
+            "scope": ["punctuation.definition.string.begin", "punctuation.definition.string.end"],
+            "settings": {"foreground": "#4c956c"}
+        },
+
+        // ЧИСЛА И КОНСТАНТЫ
+        {
+            "name": "Constants",
+            "scope": ["constant", "variable.other.constant"],
+            "settings": {"foreground": "#d94d9a"}
+        },
+        {
+            "name": "Numbers",
+            "scope": ["constant.numeric"],
+            "settings": {"foreground": "#d94d9a"}
+        },
+
+        // КЛЮЧЕВЫЕ СЛОВА
+        {
+            "name": "Keywords",
+            "scope": ["keyword", "storage.type", "storage.modifier"],
+            "settings": {"foreground": "#7209b7", "fontStyle": "bold"}
+        },
+
+        // ФУНКЦИИ
+        {
+            "name": "Function names",
+            "scope": ["entity.name.function", "meta.function-call"],
+            "settings": {"foreground": "#5e60ce"}
+        },
+        {
+            "name": "Function parameters",
+            "scope": ["variable.parameter"],
+            "settings": {"foreground": "#d1cdd9", "fontStyle": "italic"}
+        },
+
+        // КЛАССЫ И ТИПЫ
+        {
+            "name": "Classes",
+            "scope": ["entity.name.type.class", "entity.name.class"],
+            "settings": {"foreground": "#a663cc"}
+        },
+        {
+            "name": "Types",
+            "scope": ["entity.name.type", "storage.type"],
+            "settings": {"foreground": "#a663cc", "fontStyle": "italic"}
+        },
+
+        // ПЕРЕМЕННЫЕ
+        {
+            "name": "Variables",
+            "scope": ["variable"],
+            "settings": {"foreground": "#f8f8ff"}
+        },
+        {
+            "name": "Language variables",
+            "scope": ["variable.language"],
+            "settings": {"foreground": "#d94d9a", "fontStyle": "italic"}
+        },
+
+        // HTML/XML
+        {
+            "name": "HTML tags",
+            "scope": ["entity.name.tag"],
+            "settings": {"foreground": "#7209b7"}
+        },
+        {
+            "name": "HTML attributes",
+            "scope": ["entity.other.attribute-name"],
+            "settings": {"foreground": "#a663cc", "fontStyle": "italic"}
+        },
+
+        // CSS
+        {
+            "name": "CSS selectors",
+            "scope": ["meta.selector"],
+            "settings": {"foreground": "#a663cc"}
+        },
+        {
+            "name": "CSS properties",
+            "scope": ["support.type.property-name"],
+            "settings": {"foreground": "#5e60ce"}
+        },
+
+        // ОПЕРАТОРЫ И ПУНКТУАЦИЯ
+        {
+            "name": "Operators",
+            "scope": ["keyword.operator"],
+            "settings": {"foreground": "#d94d9a"}
+        },
+        {
+            "name": "Punctuation",
+            "scope": ["punctuation"],
+            "settings": {"foreground": "#d1cdd9"}
+        },
+
+        // РЕГУЛЯРНЫЕ ВЫРАЖЕНИЯ
+        {
+            "name": "RegExp",
+            "scope": ["string.regexp"],
+            "settings": {"foreground": "#4c956c"}
+        },
+
+        // MARKDOWN
+        {
+            "name": "Markdown headings",
+            "scope": ["markup.heading"],
+            "settings": {"foreground": "#a663cc", "fontStyle": "bold"}
+        },
+        {
+            "name": "Markdown bold",
+            "scope": ["markup.bold"],
+            "settings": {"foreground": "#f8f8ff", "fontStyle": "bold"}
+        },
+        {
+            "name": "Markdown italic",
+            "scope": ["markup.italic"],
+            "settings": {"foreground": "#f8f8ff", "fontStyle": "italic"}
+        },
+        {
+            "name": "Markdown links",
+            "scope": ["markup.underline.link"],
+            "settings": {"foreground": "#5e60ce"}
+        },
+        {
+            "name": "Markdown code",
+            "scope": ["markup.inline.raw"],
+            "settings": {"foreground": "#4c956c"}
+        },
+
+        // НЕДЕЙСТВИТЕЛЬНЫЙ КОД
+        {
+            "name": "Invalid",
+            "scope": ["invalid"],
+            "settings": {"foreground": "#d94d9a", "fontStyle": "underline"}
+        },
+        {
+            "name": "Deprecated",
+            "scope": ["invalid.deprecated"],
+            "settings": {"foreground": "#9a92b0", "fontStyle": "strikethrough"}
+        }
+    ]
+}
